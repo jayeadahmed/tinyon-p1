@@ -14,9 +14,13 @@ header{
   padding: 20px 0;
   background-color:  #ffcc00;
 }
-strong{ 
-  text-align: center;
+
+.logo{}
+.logo_text{ 
+  display: inline-flex;
+  /* text-align: center; */
   font-size: 30px;
+  font-weight: 700;
 }
 .c_nav{}
 .menu{}
@@ -31,15 +35,16 @@ strong{
 }
 .menu ul li a:hover{
   color: white !important;
-  animation: .33;
+  transition: .9s;
 }
 /*header end*/
+
+/*slaider start*/
 
 .slaider{
   background-color:  #ffcc00;
   padding-bottom: 100px;
 }
-
 .c_ind{
   bottom: -80px;
 }
@@ -48,39 +53,89 @@ strong{
   width: 15px;
   height: 15px;
   border-radius: 50%;
+
 }
 
+.carousel-indicators .active {
+  opacity: 1;
+}
 
-.sl_text{
+.s_text{
   margin-top: 50px;
 }
-.sl_text h1{
+.s_text h1{
   font-size: 32px;
   font-weight: 700;
 }
-.sl_text h2{
-  margin:20px 0;
-  font-weight: 400;
+.s_text h2{
+  margin: 20px 0;
   font-size: 20px;
+  font-weight: 400;
   color: #333333;
 }
-.sl_text p{
-  color: #999999;
+.s_text p{
+  margin-bottom: 35px;
+  color: #666666;
 }
-.sl_icon{ 
-  margin: 45px 0px;
-  font-size: 40px;
+.s_icon{
+
 }
-.sl_icon ul li i{
-  padding-right: 15px;
-  transition: .3s;
-  
+.s_icon ul li{
+  margin-right: 30px !important;
+  transition: .9s;
 }
 
-.sl_icon ul li i:hover{
-  transform :scale(.8);
+.s_icon ul li:hover{
+  transform: scale(.8);
   color: white;
 }
-.sl_icon ul li{}
-.sl_img{}
-.
+.s_icon ul li i{
+  font-size: 42px;
+}
+
+.carousel-indicators {
+  bottom: -80px;
+}
+
+/*slaider end*/
+
+/*feature start*/
+.feature{
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+.com_titel{}
+.c_h1{
+  margin-bottom: 15px;
+  font-size: 32px;
+  font-weight:700 ;
+  color: ;
+}
+.c_p{
+  font-size: 20px;
+  color: ;
+}
+.f_item{
+  margin-top: 70px;
+}
+
+.f_icon{}
+.f_icon i{
+  font-size: 50px;
+}
+
+.f_icon i:hover{
+  transform: scale(.8);
+  color:  #ffcc00;
+}
+.f_text{}
+.f_text h2{
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 700;
+}
+.f_text p{
+  color: #999999;
+  letter-spacing: 1px;
+}
+/*feature end*/
